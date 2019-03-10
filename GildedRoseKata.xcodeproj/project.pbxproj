@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EDE50CFD2235402800575EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50CFC2235402800575EDF /* AppDelegate.swift */; };
-		EDE50CFF2235402800575EDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50CFE2235402800575EDF /* ViewController.swift */; };
-		EDE50D022235402800575EDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE50D002235402800575EDF /* Main.storyboard */; };
-		EDE50D042235402800575EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE50D032235402800575EDF /* Assets.xcassets */; };
-		EDE50D072235402800575EDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE50D052235402800575EDF /* LaunchScreen.storyboard */; };
 		EDE50D122235402800575EDF /* GildedRoseKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50D112235402800575EDF /* GildedRoseKataTests.swift */; };
+		EDE50D1D22354EC400575EDF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50D1C22354EC400575EDF /* Item.swift */; };
+		EDE50D1F22354EE000575EDF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50D1E22354EE000575EDF /* main.swift */; };
+		EDE50D2122354F0F00575EDF /* GildedRose.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50D2022354F0F00575EDF /* GildedRose.swift */; };
+		EDE50D232235B05500575EDF /* ProductChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50D222235B05500575EDF /* ProductChanges.swift */; };
+		EDE50D252235BACD00575EDF /* AgedBrie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50D242235BACD00575EDF /* AgedBrie.swift */; };
+		EDE50D272235BAE900575EDF /* Sulfuras.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50D262235BAE900575EDF /* Sulfuras.swift */; };
+		EDE50D292235BB0B00575EDF /* Conjured.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50D282235BB0B00575EDF /* Conjured.swift */; };
+		EDE50D2B2235BB5300575EDF /* Backstage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50D2A2235BB5300575EDF /* Backstage.swift */; };
+		EDE50D2D2235C4CC00575EDF /* StoreHouseChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50D2C2235C4CC00575EDF /* StoreHouseChanges.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,15 +31,19 @@
 
 /* Begin PBXFileReference section */
 		EDE50CF92235402800575EDF /* GildedRoseKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GildedRoseKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDE50CFC2235402800575EDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDE50CFE2235402800575EDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EDE50D012235402800575EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EDE50D032235402800575EDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDE50D062235402800575EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDE50D082235402800575EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDE50D0D2235402800575EDF /* GildedRoseKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GildedRoseKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE50D112235402800575EDF /* GildedRoseKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRoseKataTests.swift; sourceTree = "<group>"; };
 		EDE50D132235402800575EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE50D1C22354EC400575EDF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EDE50D1E22354EE000575EDF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EDE50D2022354F0F00575EDF /* GildedRose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRose.swift; sourceTree = "<group>"; };
+		EDE50D222235B05500575EDF /* ProductChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductChanges.swift; sourceTree = "<group>"; };
+		EDE50D242235BACD00575EDF /* AgedBrie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgedBrie.swift; sourceTree = "<group>"; };
+		EDE50D262235BAE900575EDF /* Sulfuras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sulfuras.swift; sourceTree = "<group>"; };
+		EDE50D282235BB0B00575EDF /* Conjured.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conjured.swift; sourceTree = "<group>"; };
+		EDE50D2A2235BB5300575EDF /* Backstage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backstage.swift; sourceTree = "<group>"; };
+		EDE50D2C2235C4CC00575EDF /* StoreHouseChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreHouseChanges.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +85,16 @@
 		EDE50CFB2235402800575EDF /* GildedRoseKata */ = {
 			isa = PBXGroup;
 			children = (
-				EDE50CFC2235402800575EDF /* AppDelegate.swift */,
-				EDE50CFE2235402800575EDF /* ViewController.swift */,
-				EDE50D002235402800575EDF /* Main.storyboard */,
-				EDE50D032235402800575EDF /* Assets.xcassets */,
-				EDE50D052235402800575EDF /* LaunchScreen.storyboard */,
 				EDE50D082235402800575EDF /* Info.plist */,
+				EDE50D1C22354EC400575EDF /* Item.swift */,
+				EDE50D1E22354EE000575EDF /* main.swift */,
+				EDE50D2022354F0F00575EDF /* GildedRose.swift */,
+				EDE50D222235B05500575EDF /* ProductChanges.swift */,
+				EDE50D242235BACD00575EDF /* AgedBrie.swift */,
+				EDE50D262235BAE900575EDF /* Sulfuras.swift */,
+				EDE50D282235BB0B00575EDF /* Conjured.swift */,
+				EDE50D2A2235BB5300575EDF /* Backstage.swift */,
+				EDE50D2C2235C4CC00575EDF /* StoreHouseChanges.swift */,
 			);
 			path = GildedRoseKata;
 			sourceTree = "<group>";
@@ -146,6 +158,7 @@
 				TargetAttributes = {
 					EDE50CF82235402800575EDF = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					EDE50D0C2235402800575EDF = {
@@ -179,9 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDE50D072235402800575EDF /* LaunchScreen.storyboard in Resources */,
-				EDE50D042235402800575EDF /* Assets.xcassets in Resources */,
-				EDE50D022235402800575EDF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +209,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDE50CFF2235402800575EDF /* ViewController.swift in Sources */,
-				EDE50CFD2235402800575EDF /* AppDelegate.swift in Sources */,
+				EDE50D272235BAE900575EDF /* Sulfuras.swift in Sources */,
+				EDE50D292235BB0B00575EDF /* Conjured.swift in Sources */,
+				EDE50D1F22354EE000575EDF /* main.swift in Sources */,
+				EDE50D2D2235C4CC00575EDF /* StoreHouseChanges.swift in Sources */,
+				EDE50D232235B05500575EDF /* ProductChanges.swift in Sources */,
+				EDE50D252235BACD00575EDF /* AgedBrie.swift in Sources */,
+				EDE50D2122354F0F00575EDF /* GildedRose.swift in Sources */,
+				EDE50D1D22354EC400575EDF /* Item.swift in Sources */,
+				EDE50D2B2235BB5300575EDF /* Backstage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,25 +238,6 @@
 			targetProxy = EDE50D0E2235402800575EDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EDE50D002235402800575EDF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDE50D012235402800575EDF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EDE50D052235402800575EDF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDE50D062235402800575EDF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EDE50D142235402800575EDF /* Debug */ = {
@@ -353,11 +351,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GildedRoseKata/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Daniela.GildedRoseKata;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GildedRoseKata/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
