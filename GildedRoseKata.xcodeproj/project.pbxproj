@@ -17,6 +17,8 @@
 		EDE50D292235BB0B00575EDF /* Conjured.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50D282235BB0B00575EDF /* Conjured.swift */; };
 		EDE50D2B2235BB5300575EDF /* Backstage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50D2A2235BB5300575EDF /* Backstage.swift */; };
 		EDE50D2D2235C4CC00575EDF /* StoreHouseChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50D2C2235C4CC00575EDF /* StoreHouseChanges.swift */; };
+		EDE50D2F2235CBBA00575EDF /* AgedBrieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50D2E2235CBBA00575EDF /* AgedBrieTests.swift */; };
+		EDE50D352235D5F800575EDF /* ConjuredProductsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE50D342235D5F800575EDF /* ConjuredProductsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		EDE50D282235BB0B00575EDF /* Conjured.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conjured.swift; sourceTree = "<group>"; };
 		EDE50D2A2235BB5300575EDF /* Backstage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backstage.swift; sourceTree = "<group>"; };
 		EDE50D2C2235C4CC00575EDF /* StoreHouseChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreHouseChanges.swift; sourceTree = "<group>"; };
+		EDE50D2E2235CBBA00575EDF /* AgedBrieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgedBrieTests.swift; sourceTree = "<group>"; };
+		EDE50D342235D5F800575EDF /* ConjuredProductsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConjuredProductsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			children = (
 				EDE50D112235402800575EDF /* GildedRoseKataTests.swift */,
 				EDE50D132235402800575EDF /* Info.plist */,
+				EDE50D2E2235CBBA00575EDF /* AgedBrieTests.swift */,
+				EDE50D342235D5F800575EDF /* ConjuredProductsTests.swift */,
 			);
 			path = GildedRoseKataTests;
 			sourceTree = "<group>";
@@ -225,6 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE50D352235D5F800575EDF /* ConjuredProductsTests.swift in Sources */,
+				EDE50D2F2235CBBA00575EDF /* AgedBrieTests.swift in Sources */,
 				EDE50D122235402800575EDF /* GildedRoseKataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
